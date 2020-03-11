@@ -29,6 +29,6 @@ just run **"mvn test"** or direct from your IDE ( in my case, IntelliJ)
    * a BlueRay player is returned in the product listing page.
    
 # API Tests
-All the scenarions have been implemented using Java and RestAssured ( http://rest-assured.io/ ) to validate the API responses.
+All the scenarios have been implemented using Java and RestAssured ( http://rest-assured.io/ ) to validate the API responses.
 ## How to run 
 just run **"mvn test"** or direct from your IDE ( in my case, IntelliJ)
