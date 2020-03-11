@@ -1,0 +1,5238 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "status": {
+      "type": "string"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "city": {
+          "type": "string"
+        },
+        "state": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        },
+        "location": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string"
+            },
+            "coordinates": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                }
+              ]
+            }
+          },
+          "required": [
+            "type",
+            "coordinates"
+          ]
+        },
+        "forecasts": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "ts": {
+                  "type": "string"
+                },
+                "aqius": {
+                  "type": "integer"
+                },
+                "aqicn": {
+                  "type": "integer"
+                },
+                "tp": {
+                  "type": "integer"
+                },
+                "tp_min": {
+                  "type": "integer"
+                },
+                "pr": {
+                  "type": "integer"
+                },
+                "hu": {
+                  "type": "integer"
+                },
+                "ws": {
+                  "type": "integer"
+                },
+                "wd": {
+                  "type": "integer"
+                },
+                "ic": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "ts",
+                "aqius",
+                "aqicn",
+                "tp",
+                "tp_min",
+                "pr",
+                "hu",
+                "ws",
+                "wd",
+                "ic"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "ts": {
+                  "type": "string"
+                },
+                "aqius": {
+                  "type": "integer"
+                },
+                "aqicn": {
+                  "type": "integer"
+                },
+                "tp": {
+                  "type": "integer"
+                },
+                "tp_min": {
+                  "type": "integer"
+                },
+                "pr": {
+                  "type": "integer"
+                },
+                "hu": {
+                  "type": "integer"
+                },
+                "ws": {
+                  "type": "integer"
+                },
+                "wd": {
+                  "type": "integer"
+                },
+                "ic": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "ts",
+                "aqius",
+                "aqicn",
+                "tp",
+                "tp_min",
+                "pr",
+                "hu",
+                "ws",
+                "wd",
+                "ic"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "ts": {
+                  "type": "string"
+                },
+                "aqius": {
+                  "type": "integer"
+                },
+                "aqicn": {
+                  "type": "integer"
+                },
+                "tp": {
+                  "type": "integer"
+                },
+                "tp_min": {
+                  "type": "integer"
+                },
+                "pr": {
+                  "type": "integer"
+                },
+                "hu": {
+                  "type": "integer"
+                },
+                "ws": {
+                  "type": "integer"
+                },
+                "wd": {
+                  "type": "integer"
+                },
+                "ic": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "ts",
+                "aqius",
+                "aqicn",
+                "tp",
+                "tp_min",
+                "pr",
+                "hu",
+                "ws",
+                "wd",
+                "ic"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "ts": {
+                  "type": "string"
+                },
+                "aqius": {
+                  "type": "integer"
+                },
+                "aqicn": {
+                  "type": "integer"
+                },
+                "tp": {
+                  "type": "integer"
+                },
+                "tp_min": {
+                  "type": "integer"
+                },
+                "pr": {
+                  "type": "integer"
+                },
+                "hu": {
+                  "type": "integer"
+                },
+                "ws": {
+                  "type": "integer"
+                },
+                "wd": {
+                  "type": "integer"
+                },
+                "ic": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "ts",
+                "aqius",
+                "aqicn",
+                "tp",
+                "tp_min",
+                "pr",
+                "hu",
+                "ws",
+                "wd",
+                "ic"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "ts": {
+                  "type": "string"
+                },
+                "aqius": {
+                  "type": "integer"
+                },
+                "aqicn": {
+                  "type": "integer"
+                },
+                "tp": {
+                  "type": "integer"
+                },
+                "tp_min": {
+                  "type": "integer"
+                },
+                "pr": {
+                  "type": "integer"
+                },
+                "hu": {
+                  "type": "integer"
+                },
+                "ws": {
+                  "type": "integer"
+                },
+                "wd": {
+                  "type": "integer"
+                },
+                "ic": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "ts",
+                "aqius",
+                "aqicn",
+                "tp",
+                "tp_min",
+                "pr",
+                "hu",
+                "ws",
+                "wd",
+                "ic"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "ts": {
+                  "type": "string"
+                },
+                "aqius": {
+                  "type": "integer"
+                },
+                "aqicn": {
+                  "type": "integer"
+                },
+                "tp": {
+                  "type": "integer"
+                },
+                "tp_min": {
+                  "type": "integer"
+                },
+                "pr": {
+                  "type": "integer"
+                },
+                "hu": {
+                  "type": "integer"
+                },
+                "ws": {
+                  "type": "integer"
+                },
+                "wd": {
+                  "type": "integer"
+                },
+                "ic": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "ts",
+                "aqius",
+                "aqicn",
+                "tp",
+                "tp_min",
+                "pr",
+                "hu",
+                "ws",
+                "wd",
+                "ic"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "ts": {
+                  "type": "string"
+                },
+                "aqius": {
+                  "type": "integer"
+                },
+                "aqicn": {
+                  "type": "integer"
+                },
+                "tp": {
+                  "type": "integer"
+                },
+                "tp_min": {
+                  "type": "integer"
+                },
+                "pr": {
+                  "type": "integer"
+                },
+                "hu": {
+                  "type": "integer"
+                },
+                "ws": {
+                  "type": "integer"
+                },
+                "wd": {
+                  "type": "integer"
+                },
+                "ic": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "ts",
+                "aqius",
+                "aqicn",
+                "tp",
+                "tp_min",
+                "pr",
+                "hu",
+                "ws",
+                "wd",
+                "ic"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "ts": {
+                  "type": "string"
+                },
+                "aqius": {
+                  "type": "integer"
+                },
+                "aqicn": {
+                  "type": "integer"
+                },
+                "tp": {
+                  "type": "integer"
+                },
+                "tp_min": {
+                  "type": "integer"
+                },
+                "pr": {
+                  "type": "integer"
+                },
+                "hu": {
+                  "type": "integer"
+                },
+                "ws": {
+                  "type": "integer"
+                },
+                "wd": {
+                  "type": "integer"
+                },
+                "ic": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "ts",
+                "aqius",
+                "aqicn",
+                "tp",
+                "tp_min",
+                "pr",
+                "hu",
+                "ws",
+                "wd",
+                "ic"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "ts": {
+                  "type": "string"
+                },
+                "aqius": {
+                  "type": "integer"
+                },
+                "aqicn": {
+                  "type": "integer"
+                },
+                "tp": {
+                  "type": "integer"
+                },
+                "tp_min": {
+                  "type": "integer"
+                },
+                "pr": {
+                  "type": "integer"
+                },
+                "hu": {
+                  "type": "integer"
+                },
+                "ws": {
+                  "type": "integer"
+                },
+                "wd": {
+                  "type": "integer"
+                },
+                "ic": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "ts",
+                "aqius",
+                "aqicn",
+                "tp",
+                "tp_min",
+                "pr",
+                "hu",
+                "ws",
+                "wd",
+                "ic"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "ts": {
+                  "type": "string"
+                },
+                "aqius": {
+                  "type": "integer"
+                },
+                "aqicn": {
+                  "type": "integer"
+                },
+                "tp": {
+                  "type": "integer"
+                },
+                "tp_min": {
+                  "type": "integer"
+                },
+                "pr": {
+                  "type": "integer"
+                },
+                "hu": {
+                  "type": "integer"
+                },
+                "ws": {
+                  "type": "integer"
+                },
+                "wd": {
+                  "type": "integer"
+                },
+                "ic": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "ts",
+                "aqius",
+                "aqicn",
+                "tp",
+                "tp_min",
+                "pr",
+                "hu",
+                "ws",
+                "wd",
+                "ic"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "ts": {
+                  "type": "string"
+                },
+                "aqius": {
+                  "type": "integer"
+                },
+                "aqicn": {
+                  "type": "integer"
+                },
+                "tp": {
+                  "type": "integer"
+                },
+                "tp_min": {
+                  "type": "integer"
+                },
+                "pr": {
+                  "type": "integer"
+                },
+                "hu": {
+                  "type": "integer"
+                },
+                "ws": {
+                  "type": "integer"
+                },
+                "wd": {
+                  "type": "integer"
+                },
+                "ic": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "ts",
+                "aqius",
+                "aqicn",
+                "tp",
+                "tp_min",
+                "pr",
+                "hu",
+                "ws",
+                "wd",
+                "ic"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "ts": {
+                  "type": "string"
+                },
+                "aqius": {
+                  "type": "integer"
+                },
+                "aqicn": {
+                  "type": "integer"
+                },
+                "tp": {
+                  "type": "integer"
+                },
+                "tp_min": {
+                  "type": "integer"
+                },
+                "pr": {
+                  "type": "integer"
+                },
+                "hu": {
+                  "type": "integer"
+                },
+                "ws": {
+                  "type": "integer"
+                },
+                "wd": {
+                  "type": "integer"
+                },
+                "ic": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "ts",
+                "aqius",
+                "aqicn",
+                "tp",
+                "tp_min",
+                "pr",
+                "hu",
+                "ws",
+                "wd",
+                "ic"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "ts": {
+                  "type": "string"
+                },
+                "aqius": {
+                  "type": "integer"
+                },
+                "aqicn": {
+                  "type": "integer"
+                },
+                "tp": {
+                  "type": "integer"
+                },
+                "tp_min": {
+                  "type": "integer"
+                },
+                "pr": {
+                  "type": "integer"
+                },
+                "hu": {
+                  "type": "integer"
+                },
+                "ws": {
+                  "type": "integer"
+                },
+                "wd": {
+                  "type": "integer"
+                },
+                "ic": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "ts",
+                "aqius",
+                "aqicn",
+                "tp",
+                "tp_min",
+                "pr",
+                "hu",
+                "ws",
+                "wd",
+                "ic"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "ts": {
+                  "type": "string"
+                },
+                "aqius": {
+                  "type": "integer"
+                },
+                "aqicn": {
+                  "type": "integer"
+                },
+                "tp": {
+                  "type": "integer"
+                },
+                "tp_min": {
+                  "type": "integer"
+                },
+                "pr": {
+                  "type": "integer"
+                },
+                "hu": {
+                  "type": "integer"
+                },
+                "ws": {
+                  "type": "integer"
+                },
+                "wd": {
+                  "type": "integer"
+                },
+                "ic": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "ts",
+                "aqius",
+                "aqicn",
+                "tp",
+                "tp_min",
+                "pr",
+                "hu",
+                "ws",
+                "wd",
+                "ic"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "ts": {
+                  "type": "string"
+                },
+                "aqius": {
+                  "type": "integer"
+                },
+                "aqicn": {
+                  "type": "integer"
+                },
+                "tp": {
+                  "type": "integer"
+                },
+                "tp_min": {
+                  "type": "integer"
+                },
+                "pr": {
+                  "type": "integer"
+                },
+                "hu": {
+                  "type": "integer"
+                },
+                "ws": {
+                  "type": "integer"
+                },
+                "wd": {
+                  "type": "integer"
+                },
+                "ic": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "ts",
+                "aqius",
+                "aqicn",
+                "tp",
+                "tp_min",
+                "pr",
+                "hu",
+                "ws",
+                "wd",
+                "ic"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "ts": {
+                  "type": "string"
+                },
+                "aqius": {
+                  "type": "integer"
+                },
+                "aqicn": {
+                  "type": "integer"
+                },
+                "tp": {
+                  "type": "integer"
+                },
+                "tp_min": {
+                  "type": "integer"
+                },
+                "pr": {
+                  "type": "integer"
+                },
+                "hu": {
+                  "type": "integer"
+                },
+                "ws": {
+                  "type": "integer"
+                },
+                "wd": {
+                  "type": "integer"
+                },
+                "ic": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "ts",
+                "aqius",
+                "aqicn",
+                "tp",
+                "tp_min",
+                "pr",
+                "hu",
+                "ws",
+                "wd",
+                "ic"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "ts": {
+                  "type": "string"
+                },
+                "aqius": {
+                  "type": "integer"
+                },
+                "aqicn": {
+                  "type": "integer"
+                },
+                "tp": {
+                  "type": "integer"
+                },
+                "tp_min": {
+                  "type": "integer"
+                },
+                "pr": {
+                  "type": "integer"
+                },
+                "hu": {
+                  "type": "integer"
+                },
+                "ws": {
+                  "type": "integer"
+                },
+                "wd": {
+                  "type": "integer"
+                },
+                "ic": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "ts",
+                "aqius",
+                "aqicn",
+                "tp",
+                "tp_min",
+                "pr",
+                "hu",
+                "ws",
+                "wd",
+                "ic"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "ts": {
+                  "type": "string"
+                },
+                "aqius": {
+                  "type": "integer"
+                },
+                "aqicn": {
+                  "type": "integer"
+                },
+                "tp": {
+                  "type": "integer"
+                },
+                "tp_min": {
+                  "type": "integer"
+                },
+                "pr": {
+                  "type": "integer"
+                },
+                "hu": {
+                  "type": "integer"
+                },
+                "ws": {
+                  "type": "integer"
+                },
+                "wd": {
+                  "type": "integer"
+                },
+                "ic": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "ts",
+                "aqius",
+                "aqicn",
+                "tp",
+                "tp_min",
+                "pr",
+                "hu",
+                "ws",
+                "wd",
+                "ic"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "ts": {
+                  "type": "string"
+                },
+                "aqius": {
+                  "type": "integer"
+                },
+                "aqicn": {
+                  "type": "integer"
+                },
+                "tp": {
+                  "type": "integer"
+                },
+                "tp_min": {
+                  "type": "integer"
+                },
+                "pr": {
+                  "type": "integer"
+                },
+                "hu": {
+                  "type": "integer"
+                },
+                "ws": {
+                  "type": "integer"
+                },
+                "wd": {
+                  "type": "integer"
+                },
+                "ic": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "ts",
+                "aqius",
+                "aqicn",
+                "tp",
+                "tp_min",
+                "pr",
+                "hu",
+                "ws",
+                "wd",
+                "ic"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "ts": {
+                  "type": "string"
+                },
+                "aqius": {
+                  "type": "integer"
+                },
+                "aqicn": {
+                  "type": "integer"
+                },
+                "tp": {
+                  "type": "integer"
+                },
+                "tp_min": {
+                  "type": "integer"
+                },
+                "pr": {
+                  "type": "integer"
+                },
+                "hu": {
+                  "type": "integer"
+                },
+                "ws": {
+                  "type": "integer"
+                },
+                "wd": {
+                  "type": "integer"
+                },
+                "ic": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "ts",
+                "aqius",
+                "aqicn",
+                "tp",
+                "tp_min",
+                "pr",
+                "hu",
+                "ws",
+                "wd",
+                "ic"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "ts": {
+                  "type": "string"
+                },
+                "aqius": {
+                  "type": "integer"
+                },
+                "aqicn": {
+                  "type": "integer"
+                },
+                "tp": {
+                  "type": "integer"
+                },
+                "tp_min": {
+                  "type": "integer"
+                },
+                "pr": {
+                  "type": "integer"
+                },
+                "hu": {
+                  "type": "integer"
+                },
+                "ws": {
+                  "type": "integer"
+                },
+                "wd": {
+                  "type": "integer"
+                },
+                "ic": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "ts",
+                "aqius",
+                "aqicn",
+                "tp",
+                "tp_min",
+                "pr",
+                "hu",
+                "ws",
+                "wd",
+                "ic"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "ts": {
+                  "type": "string"
+                },
+                "aqius": {
+                  "type": "integer"
+                },
+                "aqicn": {
+                  "type": "integer"
+                },
+                "tp": {
+                  "type": "integer"
+                },
+                "tp_min": {
+                  "type": "integer"
+                },
+                "pr": {
+                  "type": "integer"
+                },
+                "hu": {
+                  "type": "integer"
+                },
+                "ws": {
+                  "type": "integer"
+                },
+                "wd": {
+                  "type": "integer"
+                },
+                "ic": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "ts",
+                "aqius",
+                "aqicn",
+                "tp",
+                "tp_min",
+                "pr",
+                "hu",
+                "ws",
+                "wd",
+                "ic"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "ts": {
+                  "type": "string"
+                },
+                "aqius": {
+                  "type": "integer"
+                },
+                "aqicn": {
+                  "type": "integer"
+                },
+                "tp": {
+                  "type": "integer"
+                },
+                "tp_min": {
+                  "type": "integer"
+                },
+                "pr": {
+                  "type": "integer"
+                },
+                "hu": {
+                  "type": "integer"
+                },
+                "ws": {
+                  "type": "integer"
+                },
+                "wd": {
+                  "type": "integer"
+                },
+                "ic": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "ts",
+                "aqius",
+                "aqicn",
+                "tp",
+                "tp_min",
+                "pr",
+                "hu",
+                "ws",
+                "wd",
+                "ic"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "ts": {
+                  "type": "string"
+                },
+                "aqius": {
+                  "type": "integer"
+                },
+                "aqicn": {
+                  "type": "integer"
+                },
+                "tp": {
+                  "type": "integer"
+                },
+                "tp_min": {
+                  "type": "integer"
+                },
+                "pr": {
+                  "type": "integer"
+                },
+                "hu": {
+                  "type": "integer"
+                },
+                "ws": {
+                  "type": "integer"
+                },
+                "wd": {
+                  "type": "integer"
+                },
+                "ic": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "ts",
+                "aqius",
+                "aqicn",
+                "tp",
+                "tp_min",
+                "pr",
+                "hu",
+                "ws",
+                "wd",
+                "ic"
+              ]
+            }
+          ]
+        },
+        "current": {
+          "type": "object",
+          "properties": {
+            "weather": {
+              "type": "object",
+              "properties": {
+                "ts": {
+                  "type": "string"
+                },
+                "tp": {
+                  "type": "integer"
+                },
+                "pr": {
+                  "type": "integer"
+                },
+                "hu": {
+                  "type": "integer"
+                },
+                "ws": {
+                  "type": "integer"
+                },
+                "wd": {
+                  "type": "integer"
+                },
+                "ic": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "ts",
+                "tp",
+                "pr",
+                "hu",
+                "ws",
+                "wd",
+                "ic"
+              ]
+            },
+            "pollution": {
+              "type": "object",
+              "properties": {
+                "ts": {
+                  "type": "string"
+                },
+                "aqius": {
+                  "type": "integer"
+                },
+                "mainus": {
+                  "type": "string"
+                },
+                "aqicn": {
+                  "type": "integer"
+                },
+                "maincn": {
+                  "type": "string"
+                },
+                "o3": {
+                  "type": "object",
+                  "properties": {
+                    "conc": {
+                      "type": "integer"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "conc",
+                    "aqius",
+                    "aqicn"
+                  ]
+                }
+              },
+              "required": [
+                "ts",
+                "aqius",
+                "mainus",
+                "aqicn",
+                "maincn",
+                "o3"
+              ]
+            }
+          },
+          "required": [
+            "weather",
+            "pollution"
+          ]
+        },
+        "history": {
+          "type": "object",
+          "properties": {
+            "weather": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "tp": {
+                      "type": "integer"
+                    },
+                    "pr": {
+                      "type": "integer"
+                    },
+                    "hu": {
+                      "type": "integer"
+                    },
+                    "ws": {
+                      "type": "integer"
+                    },
+                    "wd": {
+                      "type": "integer"
+                    },
+                    "ic": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "tp",
+                    "pr",
+                    "hu",
+                    "ws",
+                    "wd",
+                    "ic"
+                  ]
+                }
+              ]
+            },
+            "pollution": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "ts": {
+                      "type": "string"
+                    },
+                    "aqius": {
+                      "type": "integer"
+                    },
+                    "mainus": {
+                      "type": "string"
+                    },
+                    "aqicn": {
+                      "type": "integer"
+                    },
+                    "maincn": {
+                      "type": "string"
+                    },
+                    "o3": {
+                      "type": "object",
+                      "properties": {
+                        "conc": {
+                          "type": "integer"
+                        },
+                        "aqius": {
+                          "type": "integer"
+                        },
+                        "aqicn": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "conc",
+                        "aqius",
+                        "aqicn"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "ts",
+                    "aqius",
+                    "mainus",
+                    "aqicn",
+                    "maincn",
+                    "o3"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "weather",
+            "pollution"
+          ]
+        }
+      },
+      "required": [
+        "city",
+        "state",
+        "country",
+        "location",
+        "forecasts",
+        "current",
+        "history"
+      ]
+    }
+  },
+  "required": [
+    "status",
+    "data"
+  ]
+}

@@ -16,7 +16,7 @@ public class Cart extends BasePage{
     }
 
     public Boolean isPageVisible() {
-        return wait.until(ExpectedConditions.textToBePresentInElementLocated(CART_PAGE_TITLE, "My Bag"));
+        return wait.until(ExpectedConditions.textToBePresentInElementLocated(CART_PAGE_TITLE, "Your Bag"));
     }
 
     public long getNumberItems() {

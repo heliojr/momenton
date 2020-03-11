@@ -29,7 +29,7 @@ public class MyersTests {
         driver.quit();
     }
 
-    //    @Test
+    @Test
     public void testSearchForTv() {
         driver.get("https://www.myer.com.au");
         Common commonPage = new Common(driver, wait);
