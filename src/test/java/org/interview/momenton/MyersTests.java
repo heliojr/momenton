@@ -59,5 +59,9 @@ public class MyersTests {
         Cart cartPage = new Cart(driver, wait);
         Assert.assertTrue(cartPage.isPageVisible());
         Assert.assertEquals(1, cartPage.getNumberItems());
+
+        // we have to verify not only the number of items in the cart, but also if they are correct.
+        // Other assertions to verify product name, qty , price and delivery costs must be added in this test case to
+        // ensure the add card button is working correctly.
     }
 }
